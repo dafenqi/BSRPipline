@@ -1,0 +1,12 @@
+python BSRModelPipline.py \
+                             -R /TJPROJ2/RESEQ/Project_Crop/DataBase/new_Cotton/Gossypium_hirsutum/Gossypium_hirsutum_NAU_Tm-1/Gossypium_hirsutum_v1.1.fa \
+                             -t bam \
+                             -bulksize 30 \
+                             -popstruc F2 \
+                             -i /TJPROJ2/RESEQ/Project_Crop/Crop6/shenqi/BSR_test/bam \
+                             -o /TJPROJ2/RESEQ/Project_Crop/Crop6/shenqi/BSR_test/SNP \
+                             -b CLB2,NLB1 \
+                             -n CLB2,NLB1  \
+                             -gff /TJPROJ2/RESEQ/Project_Crop/DataBase/new_Cotton/Gossypium_hirsutum/Gossypium_hirsutum_NAU_Tm-1/Gossypium_hirsutum_v1.1.gene.gtf \
+                             --scriptsdir /ifs/TJPROJ3/RAD/WORK/wushuchang/refRNA \
+                             --toolsdir /ifs/TJPROJ3/RAD/WORK/wushuchang/refRNA/Tools
