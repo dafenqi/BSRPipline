@@ -1,5 +1,6 @@
 # BSRPipline
  Analysis Pipline Of Bulked Segregant RNA-Seq
+ 
 BSR模块使用说明
 
 一 关联分析
@@ -10,9 +11,11 @@ BSR模块使用说明
 二 流程使用方法
 
 2.1 功能描述
+
 检测SNP，筛选候选区间
 
 2.2 流程准备工作
+
 1 配置 run_BSR.sh 执行脚本
 -R 参考基因组文件
 -t bam/sam 顺序按突变型，野生型
