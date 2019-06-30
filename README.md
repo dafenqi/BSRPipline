@@ -17,12 +17,21 @@ BSR模块使用说明
 2.2 流程准备工作
 
 1 配置 run_BSR.sh 执行脚本
+
 -R 参考基因组文件
+
 -t bam/sam 顺序按突变型，野生型
+
 -i bam文件夹 顺序按突变型，野生型
+
 -o 输出文件夹SNP
+
 -b bam文件名 去掉.bam
+
 -n 样品名
+
 -gff gtf文件路径
+
 --scriptsdir 对应脚本路径
+
 --toolsdir 对应工具路径
